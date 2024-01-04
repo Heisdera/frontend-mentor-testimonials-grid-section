@@ -20,6 +20,7 @@ export default {
         "very-dark-blackish-blue": "#19212e",
         "light-gray": "#cfcfcf",
         "light-grayish-blue": "#ecf2f8",
+        "attribution-blue": "#3e52a3",
       },
     },
   },
