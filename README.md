@@ -1,6 +1,6 @@
-# Frontend Mentor - Newsletter sign-up form with success message solution
+# Frontend Mentor - Testimonials grid section solution
 
-This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -22,22 +22,16 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 Users should be able to:
 
-- Add their email and submit the form
-- See a success message with their email after successfully submitting the form
-- See form validation messages if:
-  - The field is left empty
-  - The email address is not formatted correctly
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+- View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![project screenshot](./screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [[Add solution URL here](https://your-solution-url.com](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7/))
+- Live Site URL: [Vercel](https://frontend-mentor-testimonials-grid-section-lake.vercel.app/)
 
 ## My process
 
@@ -46,42 +40,15 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Grid for layout
 - Mobile-first workflow
 - Vite
 - [React](https://reactjs.org/) - JS library
-- React Router
-- [Tailwindcss](https://styled-components.com/) - For styles
+- [Tailwindcss](https://tailwindcss.com/) - For styles
 
 ### What I learned
 
-I was able to implement a protected route which could only be accessed when a valid email address has been provided by the user because I didn't want a situation whereby a user would basically search in the success url path("/success") and get access to the success page without passing in their email.
-
-```js
-<Route
-  path="success"
-  element={
-    <ProtectedRoute>
-      <SuccessPage />
-    </ProtectedRoute>
-  }
-/>
-
-function ProtectedRoute({ children }) {
-  const { isAuthenticated } = useEmailAuth();
-  const navigate = useNavigate();
-  
-  useEffect(
-    function () {
-      if (!isAuthenticated) {
-        navigate("/");
-      }
-    },
-    [isAuthenticated, navigate],
-  );
-
-  return isAuthenticated ? children : null;
-}
-```
+I learnt how to use css grid for responsive layout on all device screen size using tailwind classes which was kinda fun😁
 
 ### Continued development
 
@@ -90,6 +57,7 @@ Still trying to adapt to using tailwind and I'm thankful the tailwind documentat
 ### Useful resources
 
 - Tailwindcss Doc
+- Kelvin powell's youtube video (Learn css grid the easy way)
 
 ## Author
 
