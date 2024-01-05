@@ -2,7 +2,7 @@ export default function App() {
   return (
     <>
       <main className="grid w-full gap-6 px-5 py-8 text-5xl md:grid-cols-2 lg:grid-cols-4">
-        <article className=" relative flex  flex-col gap-4 rounded-lg bg-moderate-violet px-7 py-6 text-white md:col-span-2">
+        <article className=" relative flex flex-col gap-6 rounded-lg bg-moderate-violet px-7 py-6 text-white md:col-span-2">
           <header className="flex items-center gap-4">
             <img
               src="../images/image-daniel.jpg"
@@ -12,7 +12,7 @@ export default function App() {
             <img
               src="../images/bg-pattern-quotation.svg"
               alt="daniel clifford"
-              className="absolute right-[10%] top-0 w-24 rounded-full opacity-50"
+              className="absolute right-[10%] top-0 w-24 rounded-full opacity-70"
             />
 
             <div className="leading-4">
