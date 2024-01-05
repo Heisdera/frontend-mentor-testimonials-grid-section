@@ -15,10 +15,10 @@ export default function App() {
               className="absolute right-[10%] top-0 w-24 rounded-full opacity-50"
             />
 
-            <span className="leading-4">
+            <div className="leading-4">
               <h2 className="text-custom font-semibold">Daniel Clifford</h2>
               <p className="text-[11px] opacity-50">Verified Graduate</p>
-            </span>
+            </div>
           </header>
 
           <p className="z-10 text-sm font-semibold">
@@ -46,10 +46,10 @@ export default function App() {
               className="w-8 rounded-full"
             />
 
-            <span className="leading-4">
+            <div className="leading-4">
               <h2 className="text-custom font-semibold">Jonathan Walters</h2>
               <p className="text-[11px] opacity-50">Verified Graduate</p>
-            </span>
+            </div>
           </header>
 
           <p className="text-sm font-semibold">
@@ -71,10 +71,10 @@ export default function App() {
               className="w-8 rounded-full"
             />
 
-            <span className="leading-4">
+            <div className="leading-4">
               <h2 className="text-custom font-semibold">Jeanette Harmon</h2>
               <p className="text-[11px] opacity-50">Verified Graduate</p>
-            </span>
+            </div>
           </header>
 
           <p className="text-sm font-semibold">
@@ -95,10 +95,10 @@ export default function App() {
               className="w-8 rounded-full"
             />
 
-            <span className="leading-4">
+            <div className="leading-4">
               <h2 className="text-custom font-semibold">Patrick Abrams</h2>
               <p className="text-[11px] opacity-50">Verified Graduate</p>
-            </span>
+            </div>
           </header>
 
           <p className="text-sm font-semibold">
@@ -125,10 +125,10 @@ export default function App() {
               className="w-8 rounded-full"
             />
 
-            <span className="leading-4">
+            <div className="leading-4">
               <h2 className="text-custom font-semibold">Kira Whittle</h2>
               <p className="text-[11px] opacity-50">Verified Graduate</p>
-            </span>
+            </div>
           </header>
 
           <p className="text-sm font-semibold">
