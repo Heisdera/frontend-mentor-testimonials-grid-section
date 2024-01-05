@@ -16,7 +16,7 @@ export default function App() {
             />
 
             <div className="leading-4">
-              <p className="text-custom font-semibold">Daniel Clifford</p>
+              <h2 className="text-custom font-semibold">Daniel Clifford</h2>
               <p className="text-[11px] opacity-50">Verified Graduate</p>
             </div>
           </header>
@@ -47,7 +47,7 @@ export default function App() {
             />
 
             <div className="leading-4">
-              <p className="text-custom font-semibold">Jonathan Walters</p>
+              <h2 className="text-custom font-semibold">Jonathan Walters</h2>
               <p className="text-[11px] opacity-50">Verified Graduate</p>
             </div>
           </header>
@@ -72,7 +72,7 @@ export default function App() {
             />
 
             <div className="leading-4">
-              <p className="text-custom font-semibold">Jeanette Harmon</p>
+              <h2 className="text-custom font-semibold">Jeanette Harmon</h2>
               <p className="text-[11px] opacity-50">Verified Graduate</p>
             </div>
           </header>
@@ -96,7 +96,7 @@ export default function App() {
             />
 
             <div className="leading-4">
-              <p className="text-custom font-semibold">Patrick Abrams</p>
+              <h2 className="text-custom font-semibold">Patrick Abrams</h2>
               <p className="text-[11px] opacity-50">Verified Graduate</p>
             </div>
           </header>
@@ -126,7 +126,7 @@ export default function App() {
             />
 
             <div className="leading-4">
-              <p className="text-custom font-semibold">Kira Whittle</p>
+              <h2 className="text-custom font-semibold">Kira Whittle</h2>
               <p className="text-[11px] opacity-50">Verified Graduate</p>
             </div>
           </header>
