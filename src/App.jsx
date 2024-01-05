@@ -1,8 +1,8 @@
 export default function App() {
   return (
     <>
-      <main className="grid w-full gap-6 px-5 py-8 text-5xl md:grid-cols-2 lg:grid-cols-4">
-        <article className=" relative flex flex-col gap-6 rounded-lg bg-moderate-violet px-7 py-6 text-white md:col-span-2">
+      <main className="grid w-full gap-4 px-5 py-6 text-5xl md:grid-cols-2 lg:grid-cols-4 lg:gap-6">
+        <article className="relative flex flex-col gap-4 rounded-lg bg-moderate-violet px-7 py-6 text-white md:col-span-2">
           <header className="flex items-center gap-4">
             <img
               src="../images/image-daniel.jpg"
@@ -12,7 +12,7 @@ export default function App() {
             <img
               src="../images/bg-pattern-quotation.svg"
               alt="daniel clifford"
-              className="absolute right-[10%] top-0 w-24 rounded-full opacity-70"
+              className="absolute right-[10%] top-0 w-28 rounded-full opacity-70"
             />
 
             <div className="leading-4">
@@ -21,13 +21,13 @@ export default function App() {
             </div>
           </header>
 
-          <p className="z-10 text-sm font-semibold">
+          <p className="z-10 text-lg font-semibold leading-6">
             I received a job offer mid-course, and the subjects I learned were
             current, if not more so, in the company I joined. I honestly feel I
             got every penny’s worth.
           </p>
 
-          <p className="text-xs opacity-70">
+          <p className="text-custom leading-5 opacity-70">
             “ I was an EMT for many years before I joined the bootcamp. I’ve
             been looking to make a transition and have heard some people who had
             an amazing experience here. I signed up for the free intro course
@@ -38,7 +38,7 @@ export default function App() {
           </p>
         </article>
 
-        <article className="flex flex-col  gap-4 rounded-lg bg-very-dark-grayish-blue px-7 py-6 text-white">
+        <article className="flex flex-col gap-4 rounded-lg bg-very-dark-grayish-blue px-7 py-6 text-white">
           <header className="flex items-center gap-4">
             <img
               src="../images/image-jonathan.jpg"
@@ -52,18 +52,18 @@ export default function App() {
             </div>
           </header>
 
-          <p className="text-sm font-semibold">
+          <p className="text-lg font-semibold leading-5">
             The team was very supportive and kept me motivated
           </p>
 
-          <p className="text-xs opacity-70">
+          <p className="text-custom leading-5 opacity-70">
             “ I started as a total newbie with virtually no coding skills. I now
             work as a mobile engineer for a big company. This was one of the
             best investments I’ve made in myself. ”
           </p>
         </article>
 
-        <article className="flex flex-col  gap-4 rounded-lg bg-white px-7 py-6 text-very-dark-blackish-blue">
+        <article className="flex flex-col gap-4 rounded-lg bg-white px-7 py-6 text-very-dark-blackish-blue">
           <header className="flex items-center gap-4">
             <img
               src="../images/image-jeanette.jpg"
@@ -77,17 +77,17 @@ export default function App() {
             </div>
           </header>
 
-          <p className="text-sm font-semibold">
+          <p className="text-lg font-semibold leading-5">
             An overall wonderful and rewarding experience
           </p>
 
-          <p className="text-xs opacity-70">
+          <p className="text-custom leading-5 opacity-70">
             “ Thank you for the wonderful experience! I now have a job I really
             enjoy, and make a good living while doing something I love. ”
           </p>
         </article>
 
-        <article className="flex flex-col  gap-4 rounded-lg bg-very-dark-blackish-blue px-7 py-6 text-white md:col-span-2">
+        <article className="relative flex flex-col gap-4 rounded-lg bg-very-dark-blackish-blue px-7 py-6 text-white md:col-span-2">
           <header className="flex items-center gap-4">
             <img
               src="../images/image-patrick.jpg"
@@ -101,13 +101,13 @@ export default function App() {
             </div>
           </header>
 
-          <p className="text-sm font-semibold">
+          <p className="text-lg font-semibold leading-5">
             Awesome teaching support from TAs who did the bootcamp themselves.
             Getting guidance from them and learning from their experiences was
             easy.
           </p>
 
-          <p className="text-xs opacity-70">
+          <p className="text-custom leading-5 opacity-70">
             “ The staff seem genuinely concerned about my progress which I find
             really refreshing. The program gave me the confidence necessary to
             be able to go out in the world and present myself as a capable
@@ -117,7 +117,7 @@ export default function App() {
           </p>
         </article>
 
-        <article className="flex flex-col  gap-4 rounded-lg bg-white px-7 py-6 text-very-dark-blackish-blue md:col-start-2 md:row-start-2 md:row-end-4 lg:col-start-4 lg:row-start-1 lg:row-end-3">
+        <article className="flex flex-col gap-4 rounded-lg bg-white px-7 py-6 text-very-dark-blackish-blue md:col-start-2 md:row-start-2 md:row-end-4 lg:col-start-4 lg:row-start-1 lg:row-end-3">
           <header className="flex items-center gap-4">
             <img
               src="../images/image-kira.jpg"
@@ -131,11 +131,11 @@ export default function App() {
             </div>
           </header>
 
-          <p className="text-sm font-semibold">
+          <p className="text-lg font-semibold leading-5">
             Such a life-changing experience. Highly recommended!
           </p>
 
-          <p className="text-xs opacity-70">
+          <p className="text-custom leading-5 opacity-70">
             “ Before joining the bootcamp, I’ve never written a line of code. I
             needed some structure from professionals who can help me learn
             programming step by step. I was encouraged to enroll by a former
