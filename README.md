@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [[Add solution URL here](https://your-solution-url.com](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7/))
+- Solution URL: [Add solution URL here](https://your-solution-url.com](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7/))
 - Live Site URL: [Vercel](https://frontend-mentor-testimonials-grid-section-lake.vercel.app/)
 
 ## My process
